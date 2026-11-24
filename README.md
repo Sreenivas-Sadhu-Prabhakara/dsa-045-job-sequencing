@@ -12,6 +12,13 @@ Two greedy choices stacked. First, consider jobs in descending profit — a rich
 
 **Complexity:** O(n log n + n·D) time (D = max deadline), O(D) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
